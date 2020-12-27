@@ -693,7 +693,7 @@ public class LocationServiceImpl extends Service implements ProviderDelegate, Lo
     }
 
     private void postLocation(BackgroundLocation location) {
-        mPostLocationTask.add(location);
+//        mPostLocationTask.add(location);
     }
 
     public void handleRequestedAbortUpdates() {
